@@ -4,13 +4,13 @@ from selenium.webdriver.chrome.service import Service
 from openpyxl import workbook
 
 path_to_save_file = fr'C:\Users\luane\Downloads\valores.xlsx'
+lista_acoes       = ['aure3', 'cxse3', 'amer3']
 
 servico = Service(ChromeDriverManager().install())
 chrome = webdriver.Chrome(service=servico)
 chrome.implicitly_wait(30) #espera a pagina carregar até 30s antes de dar erro
 chrome.maximize_window()
 
-lista_acoes = ['aure3', 'cxse3', 'amer3']
 wb = workbook.Workbook()
 ws = wb.active
 columns_names = ['PAPEL', 'PREÇO', 'PL', 'P/VP', 'D.Y.', 'ROE', 'DIV. LIQUIDA', 'CAGR LUCRO']
