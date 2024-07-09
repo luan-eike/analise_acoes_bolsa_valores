@@ -13,7 +13,7 @@ chrome.maximize_window()
 
 wb = workbook.Workbook()
 ws = wb.active
-columns_names = ['PAPEL', 'PREÇO', 'PL', 'P/VP', 'D.Y.', 'ROE', 'DIV. LIQUIDA', 'CAGR LUCRO']
+columns_names = ['PAPEL', 'PREÇO', 'P/L', 'P/VP', 'D.Y.', 'ROE', 'DIV. LIQUIDA', 'CAGR LUCRO']
 
 for i, v in enumerate(columns_names):
     i += 1
