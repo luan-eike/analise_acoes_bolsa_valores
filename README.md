@@ -1,4 +1,4 @@
-#Analise de ações na B3
+# Analise de ações na B3
 Criei este script em Python para trazer as informações do portal Status Invest e salvar em uma planilha.
 A ideia é você listar os papeis de ações que você tem interesse em uma lista e o Python irá buscar os principais indicadores das ações listadas.
 
