@@ -1,0 +1,1 @@
+# analise_acoes_bolsa_valores
